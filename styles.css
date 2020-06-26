@@ -97,6 +97,10 @@ div.gallery img{
   height: 250px; }
 
   /* ------ Watch Me ------ */
+#paragraph5{
+	font-family: 'Pangolin', 'cursives'; 
+	text-align: center; 
+	text-decoration: underline; }
 
 iframe{
   	display: block;
