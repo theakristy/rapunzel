@@ -85,8 +85,11 @@ div.gallery img{
   height: 250px; }
 
   /* ------ Watch Me ------ */
+
   iframe{
-  	position: center; }
+  	display: block;
+  	margin: auto;
+  }
 
 /* #D7BDE2 soft purple
 #F9E79F; soft yellow
