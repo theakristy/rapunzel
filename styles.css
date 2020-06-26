@@ -1,0 +1,95 @@
+/* 	Thea's Final Project Style Sheet
+	Build a Website-SC 20  */
+
+*{
+	background-color: #F9E79F; /* soft yellow */
+	box-sizing: border-box; }
+
+/* ------Navigation Bar ------*/
+ul {
+  list-style-type: none;
+  font-family: 'Cookie', 'cursives';
+  font-size: 20px;
+  background-color: #8E44AD; /* purple*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li{
+	float: left; }
+
+li a {
+	display: block;
+	color: #F0F3F4; /* white*/
+	padding: 12px 14px;
+	background-color: #8E44AD; /* purple*/
+	text-align: center;
+	text-decoration: none; }
+
+li a:hover{
+	background-color:#F0F3F4; /* white*/
+	color: #8E44AD; /* purple*/ }
+
+
+h1{
+	font-family: 'Croissant One', 'cursives';
+	font-size: 40px;
+	text-align: center;
+	color: #8E44AD; /* purple*/ }
+
+/* ------Intro------ */
+.row{
+	flex: 50%; }
+
+#paragraph1 {
+	font-family: 'Pangolin', 'cursives';
+	color: black;
+	margin-left: 0px;
+	padding: 4%;
+    overflow:auto;
+    display:block; 
+	border: 3px solid #1B2631; }
+
+#pic1{
+	float: left;
+    margin-right: 10px;
+    clear:both;
+    width: 20% }
+
+ /* ------ About Me ------ */
+.structure{
+	font-family: 'Cookie', 'cursives';
+	font-size: 35px;
+	margin-top: 5%; }
+
+#paragraph2{
+	font-family: 'Pangolin', 'cursives';
+	color: black; }
+
+#paragraph3{
+	text-decoration: bold;
+	font-family: 'Pangolin', 'cursives'; }
+
+/* ------ Gallery ------ */
+#paragraph4{
+	font-family: 'Pangolin', 'cursives'; }
+
+div.gallery{
+  margin: 5px;
+  padding-bottom: 5%;
+  float: left;
+  width: 180px; }
+
+div.gallery img{
+  width: 100%;
+  height: 250px; }
+
+  /* ------ Watch Me ------ */
+  iframe{
+  	position: center;
+  	width: "420";
+  	height: "345"; }
+
+/* #D7BDE2 soft purple
+#F9E79F; soft yellow
+#F4D03F yellow beneran */
