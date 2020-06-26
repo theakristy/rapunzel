@@ -17,7 +17,7 @@
 		<li><a href="#more"> ♡*.Watch Me </a></li>
 	</ul>
 
-	<h1> Hi! I'm Rapunzel ♡ </h1>
+	<h1 id="title"> Hi! I'm Rapunzel ♡ </h1>
 
 	<!-- Side to side -->
 	<div class="intro">
@@ -35,7 +35,7 @@
 	<!-- NavBar Effect -->
 	<div class="content">
 		<div id="about">
-			<h2 class="structure"> About Me (●'◡'●) </h2>
+			<h2 class="structure" id="aboutme"> About Me (●'◡'●) </h2>
 			<p id="paragraph2"> Aw hai! You found me 😆. We stucked home (again!) and as you know i try to spend my whole time in the house by doing anything, so this is my personal website that would make you know me well! And yes! purple everywhere cuz it's my favorite color. Thankfully now we have internet, so i still can socialize with humans 🤗💻</p>
 
 			<p id="paragraph3">Things that i really love to do:
@@ -96,7 +96,19 @@
 		</div>
 
 
+	<script type="text/javascript">
+		title.addEventListener("mouseover", function(){
+		  	title.innerHTML = "Welcome!";
+		  	title.style.color = "rgb(163, 228, 215)";
+		  	title.style.transition = "2s";
+		})
 
+		title.addEventListener("mouseout", function(){
+		  title.innerHTML =  "Hi! I'm Rapunzel ♡";
+		  title.style.color = "rgb(27, 38, 49)";
+		})
+
+	</script>
 
 
 </body>

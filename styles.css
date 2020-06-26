@@ -35,7 +35,7 @@ h1{
 	font-family: 'Croissant One', 'cursives';
 	font-size: 40px;
 	text-align: center;
-	color: #8E44AD; /* purple*/ }
+	color: #1B2631; }
 
 /* ------Intro------ */
 .row{
@@ -48,7 +48,7 @@ h1{
 	padding: 4%;
     overflow:auto;
     display:block; 
-	border: 3px solid #1B2631; }
+	border: 3px solid #8E44AD; /* purple*/ }
 
 #pic1{
 	float: left;
@@ -62,13 +62,23 @@ h1{
 	font-size: 35px;
 	margin-top: 5%; }
 
+#about{
+background-color: #D7BDE2; /* soft purple */
+}
+
+#aboutme{
+background-color: #D7BDE2; /* soft purple */
+}
+
 #paragraph2{
 	font-family: 'Pangolin', 'cursives';
-	color: black; }
+	color: black;
+	background-color: #D7BDE2; /* soft purple */ }
 
 #paragraph3{
 	text-decoration: bold;
-	font-family: 'Pangolin', 'cursives'; }
+	font-family: 'Pangolin', 'cursives'; 
+	background-color: #D7BDE2; /* soft purple */}
 
 /* ------ Gallery ------ */
 #paragraph4{
