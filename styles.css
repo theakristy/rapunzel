@@ -2,8 +2,12 @@
 	Build a Website-SC 20  */
 
 *{
-	background-color: #F9E79F; /* soft yellow */
+	/* background-color: #F9E79F; /* soft yellow */
 	box-sizing: border-box; }
+
+html{
+	background-color: #F9E79F;
+ 	background-image: linear-gradient(to bottom right, #76D7C4, #F9E79F); }
 
 /* ------Navigation Bar ------*/
 ul {
@@ -61,7 +65,8 @@ h1{
 	font-family: 'Cookie', 'cursives';
 	font-size: 35px;
 	margin-top: 5%; 
-	text-align: center; }
+	text-align: center;
+	text-shadow: 2px 2px 8px #F0F3F4; }
 
 #about{
 background-color: #D7BDE2; /* soft purple */ }
