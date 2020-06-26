@@ -60,29 +60,31 @@ h1{
 .structure{
 	font-family: 'Cookie', 'cursives';
 	font-size: 35px;
-	margin-top: 5%; }
+	margin-top: 5%; 
+	text-align: center; }
 
 #about{
-background-color: #D7BDE2; /* soft purple */
-}
+background-color: #D7BDE2; /* soft purple */ }
 
 #aboutme{
-background-color: #D7BDE2; /* soft purple */
-}
+background-color: #D7BDE2; /* soft purple */ }
 
 #paragraph2{
 	font-family: 'Pangolin', 'cursives';
 	color: black;
-	background-color: #D7BDE2; /* soft purple */ }
+	background-color: #D7BDE2; /* soft purple */
+	text-align: center; }
 
 #paragraph3{
 	text-decoration: bold;
 	font-family: 'Pangolin', 'cursives'; 
-	background-color: #D7BDE2; /* soft purple */}
+	background-color: #D7BDE2; /* soft purple */
+	text-align: center; }
 
 /* ------ Gallery ------ */
 #paragraph4{
-	font-family: 'Pangolin', 'cursives'; }
+	font-family: 'Pangolin', 'cursives'; 
+	text-align: center; }
 
 div.gallery{
   margin: 5px;
@@ -96,10 +98,9 @@ div.gallery img{
 
   /* ------ Watch Me ------ */
 
-  iframe{
+iframe{
   	display: block;
-  	margin: auto;
-  }
+  	margin: auto; }
 
 /* #D7BDE2 soft purple
 #F9E79F; soft yellow
